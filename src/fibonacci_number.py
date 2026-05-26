@@ -18,4 +18,3 @@ def fib(n: int) -> int:
     for _ in range(n):
         a, b = b, a + b
     return a
-
