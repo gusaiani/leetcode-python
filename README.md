@@ -11,7 +11,7 @@ Companion to the [JavaScript](https://github.com/gusaiani/leetcode-js) and [Rust
 
 | #   | Problem                                                         | Difficulty | Approach | Time | Space |
 | --- | --------------------------------------------------------------- | ---------- | -------- | ---- | ----- |
-| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy     | —        | —    | —     |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy     | Iteration (two-variable) | O(n) | O(1) |
 
 ## Project structure
 
