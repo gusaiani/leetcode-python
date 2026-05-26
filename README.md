@@ -29,7 +29,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 Then:
 
 ```sh
-uv sync
+uv sync --extra dev
 ```
 
 ### Pre-push hook
