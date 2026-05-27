@@ -11,6 +11,7 @@ Companion to the [JavaScript](https://github.com/gusaiani/leetcode-js) and [Rust
 
 | #   | Problem                                                         | Difficulty | Approach | Time | Space |
 | --- | --------------------------------------------------------------- | ---------- | -------- | ---- | ----- |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy     | DFS recursion (parallel) | O(n) | O(h) |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy     | Iteration (two-variable) | O(n) | O(1) |
 
 ## Project structure
