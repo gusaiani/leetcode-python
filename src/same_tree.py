@@ -10,18 +10,16 @@ and the nodes have the same value.
 """
 
 from dataclasses import dataclass
-from typing import Optional
 
 
 @dataclass
 class TreeNode:
     val: int = 0
-    left: Optional["TreeNode"] = None
-    right: Optional["TreeNode"] = None
+    left: "TreeNode | None" = None
+    right: "TreeNode | None" = None
 
 
-def is_same_tree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-    _ = (p, q)
+def is_same_tree(p: TreeNode | None, q: TreeNode | None) -> bool:
     if p is None and q is None:
         return True
 
